@@ -323,3 +323,6 @@ class handler(BaseHTTPRequestHandler):
 def main(request):
     """Main entry point for Vercel serverless function"""
     return handler(request, None)
+
+
+
